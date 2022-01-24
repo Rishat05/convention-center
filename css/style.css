@@ -56,6 +56,9 @@
     .my-slide img{
        height:500px;
     } 
+    .my-margin{
+       margin-top: 50px;
+    }
  }
  @media (max-width:990px){
    .highlight-card{
