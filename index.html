@@ -17,12 +17,11 @@
 
 <body>
     <header>
-        <section>
+        <section class="container">
 
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-lg navbar-light p-3">
                 <div class="container">
-
-                    <a class="navbar-brand fw-bold" href="#">Rishat Convention Center</a>
+                    <a class="navbar-brand fw-bold fs-6" href="#">Rishat Convention Center</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -64,7 +63,10 @@
                 </div>
                 <div class="carousel-inner ">
                     <div class="carousel-item active my-slide">
-                        <img src="images/banner/banner.png" class="d-block w-100" alt="...">
+                        <div>
+                            <img class="img-fluid" src="images/banner/banner.png" class="d-block w-100" alt="...">
+                        </div>
+
                         <div class="carousel-caption d-md-block">
                             <h1 class="fw-bold">The perfact venue for your next event</h1>
                             <p> Venue is must needed for any program.Amazing venue is always required.
@@ -75,7 +77,11 @@
                         </div>
                     </div>
                     <div class="carousel-item my-slide ">
-                        <img src="images/banner/banner-3.jpg" class="d-block w-100" alt="..." style="height:584">
+                        <div>
+                            <img class="img-fluid" src="images/banner/banner-3.jpg" class="d-block w-100" alt="..."
+                                style="height:584">
+                        </div>
+
                         <div class="carousel-caption  d-md-block">
                             <h1 class="fw-bold ">The perfact venue for your next event</h1>
                             <p>Venue is must needed for any program.Amazing venue is always required.
@@ -86,7 +92,10 @@
                         </div>
                     </div>
                     <div class="carousel-item my-slide">
-                        <img src="images/banner/banner-2.jpg" class="d-block w-100" alt="...">
+                        <div>
+                            <img class="img-fluid" src="images/banner/banner-2.jpg" class="d-block w-100" alt="...">
+                        </div>
+
                         <div class="carousel-caption  d-md-block">
                             <h1 class="fw-bold ">The perfact venue for your next event</h1>
                             <p>Venue is must needed for any program.Amazing venue is always required.
@@ -111,7 +120,7 @@
         </section>
 
         <!-- toast part  -->
-        <section class=" my-5">
+        <section class="container my-5">
             <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 20px;">
                 <div class="toast show" style="position: absolute; top: 0; right: 0;">
                     <div class="d-flex">
@@ -249,8 +258,8 @@
         <!-- frequently question ask  -->
         <section class="container my-5">
             <h1 class="text-center fw-bold my-5">Frequently asked question</h1>
-            <div class="row col-sm-12 row-cols-md-2 ">
-                <div class="col">
+            <div class="row ">
+                <div class="col-md-6">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -333,10 +342,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class=" my-margin w-100">
-                        <img class="img-fluid" src="images/question/people.png" alt="">
-                    </div>
+                <div class="col-md-6 mt-5">
+
+                    <img class="img-fluid" src="images/question/people.png" alt="">
+
                 </div>
             </div>
         </section>
